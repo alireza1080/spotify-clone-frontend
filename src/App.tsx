@@ -1,17 +1,12 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react'
-import { Button } from './components/ui/button'
+import { Outlet } from 'react-router-dom'
+
 
 const App = () => {
   return (
     <>
-      <SignedOut>
-        <SignInButton>
-          <Button>Sign In</Button>
-        </SignInButton>
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
+      <h1>Header</h1>
+      <Outlet />
+      <h1>Footer</h1>
     </>
   )
 }
