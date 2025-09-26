@@ -1,5 +1,4 @@
-import { Outlet } from 'react-router-dom'
-
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
@@ -8,7 +7,7 @@ const App = () => {
       <Outlet />
       <h1>Footer</h1>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

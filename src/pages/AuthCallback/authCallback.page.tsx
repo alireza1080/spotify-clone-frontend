@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const AuthCallbackPage = () => {
-  return (
-    <div>AuthCallbackPage</div>
-  )
-}
+  return <div>AuthCallbackPage</div>;
+};
 
-export default AuthCallbackPage
+export default AuthCallbackPage;
